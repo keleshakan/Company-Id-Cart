@@ -16,12 +16,6 @@ class Register extends StatefulWidget {
 
 class RegisterState extends State<Register> {
   GlobalKey<ScaffoldState> _scaffoldKey;
-  // controller for the First Name TextField we are going to create.
-  //TextEditingController _firstNameController;
-  // controller for the Last Name TextField we are going to create.
-  //TextEditingController _lastNameController;
-  // controller for the Password TextField we are going to create.
-  //TextEditingController _passwordController;
 
   final _firstNameController = TextEditingController();
   final _lastNameController = TextEditingController();
