@@ -67,7 +67,8 @@
 		$pass_word = $_POST['password'];
 		$school = $_POST['school'];
 		$district = $_POST['district'];
-        $sql = "UPDATE $table SET first_name = '$first_name', last_name = '$last_name' , password = '$pass_word' , school = '$school' , district = '$district' WHERE id = $emp_id";
+        $sql = "UPDATE $table SET first_name = '$first_name', last_name = '$last_name' , password = '$pass_word' , school = '$school' , district = '$district' 
+	WHERE id = $emp_id";
         if ($conn->query($sql) === TRUE) {
             echo "success";
         } else {
