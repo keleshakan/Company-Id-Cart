@@ -1,3 +1,3 @@
 # flutter
 
-some of android app coding with flutter
+android app coding with flutter
